@@ -1,0 +1,1 @@
+Toplam RAM: 6.94, Kullanılan RAM: 5.42, Free RAM: 1.52, CPU: 8
