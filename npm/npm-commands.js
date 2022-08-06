@@ -12,5 +12,12 @@
 // npm i eslint --save-dev -->Aynı İşlev<-- npm i eslint -D
 
 
+// Ödec
+// tüm paketleri <nodemon dahil> siliniz
+// yargs 15.3.1 chalk 4.0.0 versiyonuyla modülleri kurunuz. Fikir edinmek için dokümantasyona bakınız.
+// app.js dosyası oluşturup nodemon ile başlatınız.
+
+
+// nodemon u global e kurduğumuz için aynı şekilde -g parametresini kullanarak globalden silebiliriz.
 
 console.log('Hello Hazel');
