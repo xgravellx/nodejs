@@ -1,0 +1,33 @@
+@BASE_URL = http://localhost:3000/api
+
+GET http://localhost:3000
+
+###
+GET {{BASE_URL}}/users/65
+
+###
+POST {{BASE_URL}}/users
+Content-Type: application/json
+
+{
+    "isim" : "caggfgri",
+    "email" : "gfdhgfh@hotmail.com",  
+    "userName"  : "hgfcxzjgf",
+    "sifre" : "fddsagfd"
+}
+
+// Güncelleme İşlemleri
+###
+PATCH {{BASE_URL}}/users/62fa448d7fb9f38d8e59f4c1
+Content-Type: application/json
+
+{
+    "isim"  : "hazal2",
+    "userName" : "xgravellx2"
+}
+
+// Silme İşlemleri
+###
+DELETE  {{BASE_URL}}/users/62fa44777fb9f38d8e59f4b
+Content-Type: application/json
+
