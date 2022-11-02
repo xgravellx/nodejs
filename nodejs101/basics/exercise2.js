@@ -7,3 +7,4 @@ fs.readFile('demo.txt', (err, data) => {
 
 // appendFile: Dosya yoksa oluşturur içeriğine ekleme yapar.
 // writeFile: Dosya yoksa oluşturur siler ve yazar.
+// unlink: Dosyayı siler.
